@@ -1,0 +1,39 @@
+Nama		 	:  Fryscha Febryanti Puspitasari
+NIM 	 		:  224308008
+Kelas 	 		:  TKA 6A
+Akun Github (Tautan) 	:  https://github.com/Fryscha
+Student Lab Assistant 	:  Yulia Brilianty
+
+Analisis Hasil:
+a. Bagaimana akurasi deteksi pose dengan YOLOv8?
+Jawab:
+Akurasi deteksi pose menggunakan YOLOv8 terutama YOLOv8n sangat baik. Model ini mampu mencapai nilai mean Average Precision (mAP) yang tinggi. Misalnya, dalam beberapa implementasi, YOLOv8n menunjukkan akurasi di atas 80% dalam mendeteksi pose manusia dalam berbagai kondisi. Model ini juga dirancang untuk mengurangi false positives dan meningkatkan stabilitas deteksi, terutama dalam lingkungan yang dinamis. Dengan menggunakan dataset yang lebih spesifik dan melakukan fine-tuning, akurasi dapat ditingkatkan lebih lanjut, menjadikannya pilihan yang solid untuk aplikasi di dunia nyata seperti pengawasan dan interaksi manusia-komputer.
+
+b. Apakah model bekerja baik di kondisi pencahayaan rendah?
+Jawab:
+YOLOv8 terutama YOLOv8n menunjukkan performa yang cukup baik dalam kondisi pencahayaan rendah, meskipun ada beberapa batasan. Model ini dilengkapi dengan teknik augmentasi data yang membantu meningkatkan ketahanan terhadap variasi pencahayaan. Namun, dalam kondisi pencahayaan yang sangat minim, akurasi deteksi dapat menurun. Penggunaan teknik pemrosesan citra tambahan, seperti peningkatan kontras dan pengurangan noise, dapat membantu meningkatkan hasil deteksi dalam situasi pencahayaan yang buruk.
+
+c. Bagaimana YOLOv8 dibandingkan dengan metode HPE lain seperti MediaPipe atau OpenPose?
+Jawab:
+YOLOv8 terutama YOLOv8n memiliki beberapa keunggulan dibandingkan dengan metode Human Pose Estimation (HPE) lainnya seperti MediaPipe dan OpenPose. Saya mencoba menggunakan MediaPipe. Pertama, YOLOv8n menawarkan kecepatan deteksi yang lebih tinggi, memungkinkan pemrosesan real-time yang lebih efisien. Kedua, akurasi deteksi pose pada YOLOv8n sering kali lebih baik dalam kondisi kompleks, berkat arsitektur jaringan yang lebih canggih. Sementara MediaPipe juga efektif. Hal ini mungkin memerlukan lebih banyak sumber daya komputasi dan tidak selalu secepat YOLOv8n dalam aplikasi langsung.
+
+Diskusi:
+a. Bagaimana YOLOv8 Pose dapat diterapkan dalam robotika dan otomatisasi industri?
+Jawab:
+YOLOv8 Pose dapat diterapkan dalam robotika dan otomatisasi industri dengan melakukan interaksi manusia-robot, pengawasan dan keamanan, analisis kinerja dan pelatihan, otomatisasi proses produksi, dan meningkatkan pengalaman pengguna. YOLOv8 terutama YOLOv8n dapat digunakan untuk mendeteksi dan menganalisis gerakan manusia dalam lingkungan kerja, yang berguna untuk meningkatkan keselamatan dan efisiensi. Misalnya, dalam pabrik, YOLOv8n dapat membantu robot untuk berinteraksi dengan pekerja secara lebih aman dengan mengenali posisi dan gerakan mereka. Selain itu, dalam aplikasi seperti pengawasan, model ini dapat digunakan untuk memantau perilaku pekerja dan mendeteksi situasi berbahaya secara real-time.
+
+b. Apa tantangan dalam mendeteksi pose manusia secara real-time?
+Jawab:
+Tantangan utama dalam mendeteksi pose manusia secara real-time termasuk: 
+Variasi dalam pose dan gerakan: Manusia dapat bergerak dengan cara yang sangat bervariasi, yang dapat menyulitkan model untuk mendeteksi pose dengan akurat.
+Kondisi pencahayaan yang berubah-ubah: Perubahan dalam pencahayaan dapat mempengaruhi kualitas gambar dan, pada gilirannya, akurasi deteksi.
+Kompleksitas latar belakang: Latar belakang yang ramai atau kompleks dapat mengganggu deteksi pose, menyebabkan kesalahan dalam identifikasi.
+Keterbatasan perangkat keras: Untuk aplikasi real-time, perangkat keras yang digunakan harus cukup kuat untuk memproses data dengan cepat tanpa latensi yang signifikan
+
+c. Bagaimana cara meningkatkan akurasi deteksi pose menggunakan dataset tambahan?
+Jawab:
+Untuk meningkatkan akurasi deteksi pose dengan YOLOv8n, penggunaan dataset tambahan sangat dianjurkan. Beberapa langkah yang dapat diambil meliputi:
+Fine-tuning model: Melatih ulang model dengan dataset yang lebih spesifik dan relevan untuk meningkatkan akurasi pada konteks tertentu.
+Augmentasi data: Menggunakan teknik augmentasi seperti rotasi, flipping, dan perubahan pencahayaan untuk memperkaya dataset dan membantu model belajar dari variasi yang lebih luas.
+Menggunakan dataset yang lebih besar: Mengumpulkan dan melatih model dengan dataset yang lebih besar dan beragam dapat membantu model mengenali lebih banyak variasi pose dan meningkatkan generalisasi. 
+Dengan demikian, YOLOv8n menunjukkan potensi yang besar dalam aplikasi Human Pose Estimation, dengan berbagai keunggulan dan tantangan yang perlu diatasi untuk mencapai hasil yang optimal.
